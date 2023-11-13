@@ -94,7 +94,7 @@ var renderFiveDay = function(weather){
        forcastDisplay.classList = "card bg-dark text-light m-3"; //sets the forecast as a card display.
 
        var weatherDate = document.createElement("h5") //dates for all 5 days of corecast
-       weatherDate.textContent= moment(dailyForecast.dt).format("M/DD/YYYY");
+       weatherDate.textContent= moment.unix(dailyForecast.dt).format("M/DD/YYYY");
        weatherDate.classList = "text-center"
        forcastDisplay.appendChild(weatherDate);
 
