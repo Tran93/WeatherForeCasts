@@ -1,0 +1,18 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  header{
+    background-color: aqua;
+  }
+  body {
+    background-color: grey;
+    margin: 0;
+    padding-bottom: 60px;
+    min-height: 100vh;
+    position: relative;
+  }
+  
