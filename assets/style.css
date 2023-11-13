@@ -1,10 +1,8 @@
-
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+.search-column{
+    background-color:	rgb(212, 201, 201);
   }
   
+
   header{
     background-color: aqua;
   }
@@ -16,3 +14,23 @@
     position: relative;
   }
   
+form {
+  display: flex;
+  align-items: center;
+}
+
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color:aqua;
+  border-radius: 4px;
+
+}
